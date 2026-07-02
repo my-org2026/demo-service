@@ -17,3 +17,14 @@ spec:
     - content-api
   dependsOn:
     - component:content-service
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: rde-dev-team
+  definition:
+    $text: ./openapi.yaml
