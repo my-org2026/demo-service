@@ -3,5 +3,14 @@ site_description: >-
   Tài liệu chi tiết về cấu trúc tích hợp, mã lỗi và các endpoint gửi nhận SMS.
 nav:
   - Home: index.md
-plugins:
-  - techdocs-core
+  - Architecture: architecture.md
+  - API: api.md
+  - Deployment: deployment.md
+  - Configuration: configuration.md
+  - Database: database.md
+  - Security: security.md
+  - Monitoring: monitoring.md
+  - Runbook: runbook.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
