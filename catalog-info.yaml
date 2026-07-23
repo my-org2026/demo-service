@@ -27,4 +27,4 @@ spec:
   lifecycle: production
   owner: rde-dev-team
   definition:
-    $text: ./api/openapi.yaml
+    $text: ./api/prod/openapi.yaml
