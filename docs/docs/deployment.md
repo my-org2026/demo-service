@@ -5,7 +5,6 @@
 | Environment | URL |
 |------------|-----|
 | DEV | |
-| SIT | |
 | UAT | |
 | PROD | |
 

@@ -5,7 +5,7 @@ metadata:
   name: demo-service
   description: "Dịch vụ dùng để demo Global Map"
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
   owner: rde-dev-team
@@ -27,4 +27,4 @@ spec:
   lifecycle: production
   owner: rde-dev-team
   definition:
-    $text: ./openapi.yaml
+    $text: ./api/openapi.yaml
