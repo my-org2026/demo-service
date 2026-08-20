@@ -16,3 +16,6 @@ nav:
   - Changelog: changelog.md
 plugins:
   - techdocs-core
+markdown_extensions:
+  - toc:
+      toc_depth: 0
