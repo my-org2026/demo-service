@@ -46,3 +46,19 @@ Database access.
 4. Persist transaction
 5. Publish event
 6. Return response
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Client
+    participant API Gateway
+    participant Loan Service
+    participant Database
+
+    Client->>API Gateway: Gửi yêu cầu khởi tạo khoản vay
+    API Gateway->>Loan Service: Forward request (JWT authenticated)
+    Loan Service->>Database: Lưu trạng thái hồ sơ (DRAFT)
+    Database-->>Loan Service: OK
+    Loan Service-->>API Gateway: Response (LoanID, Status)
+    API Gateway-->>Client: 201 Created
+```
