@@ -16,9 +16,3 @@ nav:
   - Changelog: changelog.md
 plugins:
   - techdocs-core
-  - mermaid2:
-      arguments:
-        theme: default # Các theme: default, dark, neutral, forest
-
-extra_javascript:
-  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
