@@ -1,8 +1,8 @@
 openapi: 3.0.3
 
 info:
-  title: SMS API
-  version: 1.0.2
+  title: SMS v1 API
+  version: 1.0.3
   description: |
     API gửi tin nhắn SMS.
 
@@ -20,7 +20,7 @@ tags:
     description: SMS operations
 
 paths:
-  /api/v1/send-sms:
+  /api/v1/send:
     post:
       tags:
         - SMS
