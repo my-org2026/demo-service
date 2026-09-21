@@ -15,7 +15,6 @@ spec:
     - demo-api
   consumesApis:
     - content-api
-    - provider-api
   dependsOn:
     - component:content-service
 ---
