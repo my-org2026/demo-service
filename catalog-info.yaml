@@ -10,7 +10,7 @@ spec:
   type: service
   owner: rde-dev-team
   system: demo-system
-  lifecycle: development
+  lifecycle: production
   providesApis:
     - demo-api
   consumesApis:
