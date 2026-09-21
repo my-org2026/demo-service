@@ -15,8 +15,9 @@ spec:
     - demo-api
   consumesApis:
     - content-api
+    - abc-api
   dependsOn:
-    - component:content-service
+    - resource:sms-db
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
@@ -28,3 +29,13 @@ spec:
   owner: rde-dev-team
   definition:
     $text: ./api/prod/openapi.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: sms-db
+spec:
+  type: database
+  owner: rde-dev-team
+  system: demo-system
+
