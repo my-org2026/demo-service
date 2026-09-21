@@ -3,14 +3,14 @@ kind: Component
 
 metadata:
   name: demo-service
-  description: "Dịch vụ SMS dùng để demo Global Map"
+  description: "Dịch vụ dùng để demo Global Map"
   annotations:
     backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
   owner: rde-dev-team
   system: demo-system
-  lifecycle: production
+  lifecycle: development
   providesApis:
     - demo-api
   consumesApis:
