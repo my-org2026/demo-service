@@ -2,7 +2,7 @@ openapi: 3.0.5
 
 info:
   title: SMS API
-  version: 1.0.5
+  version: 1.0.6
   description: |
     API gửi tin nhắn SMS.
 
@@ -16,11 +16,11 @@ servers:
     description: Development
 
 tags:
-  - name: SMS Service
+  - name: Demo SMS Service
     description: SMS operations
 
 paths:
-  /public/all/send-sms:
+  /public/v1/send-sms:
     post:
       tags:
         - SMS
