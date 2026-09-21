@@ -1,7 +1,7 @@
-openapi: 3.0.3
+openapi: 3.0.4
 
 info:
-  title: SMS API
+  title: SHARED SMS API
   version: 1.0.4
   description: |
     API gửi tin nhắn SMS.
@@ -20,7 +20,7 @@ tags:
     description: SMS operations
 
 paths:
-  /public/all/send-sms:
+  /public/v1/send-sms:
     post:
       tags:
         - SMS
