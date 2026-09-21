@@ -3,7 +3,7 @@ kind: Component
 
 metadata:
   name: demo-service
-  description: "Dịch vụ dùng để demo Global Map"
+  description: "Dịch vụ SMS dùng để demo Global Map"
   annotations:
     backstage.io/techdocs-ref: dir:./docs
 spec:
@@ -15,7 +15,6 @@ spec:
     - demo-api
   consumesApis:
     - content-api
-    - abc-api
   dependsOn:
     - resource:sms-db
 ---
