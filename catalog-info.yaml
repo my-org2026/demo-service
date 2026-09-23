@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
-  owner: rde-dev-team
+  owner: pie-team
   system: demo-system
   lifecycle: production
   providesApis:
@@ -25,7 +25,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: rde-dev-team
+  owner: pie-team
   definition:
     $text: ./api/prod/openapi.yaml
 ---
@@ -35,6 +35,6 @@ metadata:
   name: sms-db
 spec:
   type: database
-  owner: rde-dev-team
+  owner: iti-team
   system: demo-system
 
