@@ -1,7 +1,7 @@
 openapi: 3.0.5
 
 info:
-  title: SMS API Test
+  title: SMS API
   version: 1.0.6
   description: |
     API gửi tin nhắn SMS.
