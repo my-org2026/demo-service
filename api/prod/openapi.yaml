@@ -16,7 +16,7 @@ servers:
     description: Development
 
 tags:
-  - name: Demo Service
+  - name: Demo SMS Service
     description: SMS operations
 
 paths:
