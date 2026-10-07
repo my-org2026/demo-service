@@ -16,11 +16,11 @@ servers:
     description: Development
 
 tags:
-  - name: Demo SMS Service
+  - name: Demo Service
     description: SMS operations
 
 paths:
-  /public/v1/send-sms:
+  /public/v2/send-sms:
     post:
       tags:
         - SMS
