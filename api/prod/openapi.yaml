@@ -16,16 +16,16 @@ servers:
     description: Development
 
 tags:
-  - name: Demo Service
+  - name: Demo SMS Service
     description: SMS operations
 
 paths:
-  /public/v2/send-sms:
+  /public/v1/send-sms:
     post:
       tags:
         - SMS
 
-      summary: Gửi SMS
+      summary: Gửi tin nhắn SMS
       description: |
         Gửi tin nhắn SMS đến một hoặc nhiều số điện thoại.
 
